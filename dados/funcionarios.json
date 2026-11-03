@@ -1,0 +1,62 @@
+[
+  {
+    "_id": {
+      "$oid": "060000000000000000000001"
+    },
+    "nome": "Rosa Almeida",
+    "cpf": "000.000.001-01",
+    "email": "equipe1@cineluz.example",
+    "telefone": "+55 00 91000-0001",
+    "cargo": "recepcionista",
+    "departamento": "recepcao",
+    "turno": {
+      "tipo": "manha",
+      "entrada": "07:00",
+      "saida": "15:00"
+    },
+    "permissoes": [
+      "checkin",
+      "checkout",
+      "reservas_visualizar",
+      "reservas_editar",
+      "feedbacks_responder"
+    ],
+    "data_admissao": {
+      "$date": "2024-08-01T00:00:00Z"
+    },
+    "salario": {
+      "$numberDecimal": "3200.00"
+    },
+    "ativo": true
+  },
+  {
+    "_id": {
+      "$oid": "060000000000000000000002"
+    },
+    "nome": "Miguel Torres",
+    "cpf": "000.000.001-02",
+    "email": "equipe2@cineluz.example",
+    "telefone": "+55 00 91000-0002",
+    "cargo": "recepcionista",
+    "departamento": "recepcao",
+    "turno": {
+      "tipo": "tarde",
+      "entrada": "15:00",
+      "saida": "23:00"
+    },
+    "permissoes": [
+      "checkin",
+      "checkout",
+      "reservas_visualizar",
+      "reservas_editar",
+      "feedbacks_responder"
+    ],
+    "data_admissao": {
+      "$date": "2024-08-01T00:00:00Z"
+    },
+    "salario": {
+      "$numberDecimal": "3300.00"
+    },
+    "ativo": true
+  }
+]

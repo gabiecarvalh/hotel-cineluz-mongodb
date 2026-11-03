@@ -1,0 +1,65 @@
+[
+  {
+    "_id": {
+      "$oid": "070000000000000000000001"
+    },
+    "nome": "Café da Manhã da Casa",
+    "categoria": "alimentacao",
+    "descricao": "Café passado na hora, pão quentinho e uma mesa pequena perto do jardim.",
+    "preco": {
+      "$numberDecimal": "25.00"
+    },
+    "unidade": "pessoa",
+    "disponivel": true,
+    "horario_disponivel": {
+      "inicio": "07:00",
+      "fim": "10:30"
+    },
+    "tags": [
+      "cafe",
+      "feito_na_casa"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "070000000000000000000002"
+    },
+    "nome": "Pipoca e Manta",
+    "categoria": "entretenimento",
+    "descricao": "Uma porção de pipoca e uma manta para acompanhar o filme que o hóspede escolher assistir.",
+    "preco": {
+      "$numberDecimal": "30.00"
+    },
+    "unidade": "kit",
+    "disponivel": true,
+    "horario_disponivel": {
+      "inicio": "14:00",
+      "fim": "22:00"
+    },
+    "tags": [
+      "cinema",
+      "aconchego"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "070000000000000000000003"
+    },
+    "nome": "Chá ao Entardecer",
+    "categoria": "alimentacao",
+    "descricao": "Uma chaleira, duas xícaras e biscoitos da casa, servidos sem pressa.",
+    "preco": {
+      "$numberDecimal": "20.00"
+    },
+    "unidade": "bandeja",
+    "disponivel": true,
+    "horario_disponivel": {
+      "inicio": "16:00",
+      "fim": "19:00"
+    },
+    "tags": [
+      "cha",
+      "pausa"
+    ]
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "_id": {
+      "$oid": "050000000000000000000001"
+    },
+    "hospedagem_id": {
+      "$oid": "040000000000000000000001"
+    },
+    "reserva_id": {
+      "$oid": "030000000000000000000001"
+    },
+    "hospede_id": {
+      "$oid": "010000000000000000000001"
+    },
+    "valor_total": {
+      "$numberDecimal": "600.00"
+    },
+    "status": "pago",
+    "data_pagamento": {
+      "$date": "2025-04-12T11:05:00Z"
+    },
+    "parcelas": [
+      {
+        "metodo": "cartao_credito",
+        "bandeira": "Visa",
+        "valor": {
+          "$numberDecimal": "520.00"
+        },
+        "num_parcelas": {
+          "$numberInt": "1"
+        },
+        "status": "aprovado",
+        "transacao_id": "DEMO-CINELUZ-C01"
+      },
+      {
+        "metodo": "pix",
+        "valor": {
+          "$numberDecimal": "80.00"
+        },
+        "num_parcelas": {
+          "$numberInt": "1"
+        },
+        "status": "aprovado",
+        "transacao_id": "DEMO-CINELUZ-P01"
+      }
+    ],
+    "nota_fiscal": "DEMO-NF-001",
+    "data_criacao": {
+      "$date": "2025-04-12T11:05:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "050000000000000000000002"
+    },
+    "hospedagem_id": {
+      "$oid": "040000000000000000000002"
+    },
+    "reserva_id": {
+      "$oid": "030000000000000000000002"
+    },
+    "hospede_id": {
+      "$oid": "010000000000000000000002"
+    },
+    "valor_total": {
+      "$numberDecimal": "530.00"
+    },
+    "status": "pago",
+    "data_pagamento": {
+      "$date": "2025-04-15T11:05:00Z"
+    },
+    "parcelas": [
+      {
+        "metodo": "pix",
+        "valor": {
+          "$numberDecimal": "530.00"
+        },
+        "num_parcelas": {
+          "$numberInt": "1"
+        },
+        "status": "aprovado",
+        "transacao_id": "DEMO-CINELUZ-P02"
+      }
+    ],
+    "nota_fiscal": "DEMO-NF-002",
+    "data_criacao": {
+      "$date": "2025-04-15T11:05:00Z"
+    }
+  }
+]

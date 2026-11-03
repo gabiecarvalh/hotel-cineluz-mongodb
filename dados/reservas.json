@@ -1,0 +1,152 @@
+[
+  {
+    "_id": {
+      "$oid": "030000000000000000000001"
+    },
+    "hospede_id": {
+      "$oid": "010000000000000000000001"
+    },
+    "hospede_snapshot": {
+      "nome": "Nina Duarte",
+      "email": "hospede1@example.com",
+      "telefone": "+55 00 90000-0001"
+    },
+    "quarto_id": {
+      "$oid": "020000000000000000000001"
+    },
+    "quarto_snapshot": {
+      "numero": "101",
+      "tipo": "standard",
+      "nome_tema": "Boas-Vindas",
+      "tema_filme": "Para Wong Foo, Obrigada por Tudo! Julie Newmar",
+      "preco_diaria": {
+        "$numberDecimal": "260.00"
+      }
+    },
+    "data_checkin": {
+      "$date": "2025-04-10T00:00:00Z"
+    },
+    "data_checkout": {
+      "$date": "2025-04-12T00:00:00Z"
+    },
+    "num_noites": {
+      "$numberInt": "2"
+    },
+    "num_hospedes": {
+      "$numberInt": "2"
+    },
+    "valor_total": {
+      "$numberDecimal": "520.00"
+    },
+    "status": "finalizada",
+    "canal": "site_proprio",
+    "codigo_reserva": "HCL-2025-001",
+    "observacoes": "Deixar um bilhete de boas-vindas na mesa.",
+    "data_criacao": {
+      "$date": "2025-03-20T14:22:00Z"
+    },
+    "data_atualizacao": {
+      "$date": "2025-04-12T11:10:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "030000000000000000000002"
+    },
+    "hospede_id": {
+      "$oid": "010000000000000000000002"
+    },
+    "hospede_snapshot": {
+      "nome": "Caio Reis",
+      "email": "hospede2@example.com",
+      "telefone": "+55 00 90000-0002"
+    },
+    "quarto_id": {
+      "$oid": "020000000000000000000002"
+    },
+    "quarto_snapshot": {
+      "numero": "102",
+      "tipo": "standard",
+      "nome_tema": "Última Volta",
+      "tema_filme": "Premonição 3",
+      "preco_diaria": {
+        "$numberDecimal": "240.00"
+      }
+    },
+    "data_checkin": {
+      "$date": "2025-04-13T00:00:00Z"
+    },
+    "data_checkout": {
+      "$date": "2025-04-15T00:00:00Z"
+    },
+    "num_noites": {
+      "$numberInt": "2"
+    },
+    "num_hospedes": {
+      "$numberInt": "2"
+    },
+    "valor_total": {
+      "$numberDecimal": "480.00"
+    },
+    "status": "finalizada",
+    "canal": "site_proprio",
+    "codigo_reserva": "HCL-2025-002",
+    "observacoes": "Prefere um quarto silencioso para descansar depois da sessão.",
+    "data_criacao": {
+      "$date": "2025-03-20T14:22:00Z"
+    },
+    "data_atualizacao": {
+      "$date": "2025-04-15T11:10:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "030000000000000000000003"
+    },
+    "hospede_id": {
+      "$oid": "010000000000000000000003"
+    },
+    "hospede_snapshot": {
+      "nome": "Lia Martins",
+      "email": "hospede3@example.com",
+      "telefone": "+55 00 90000-0003"
+    },
+    "quarto_id": {
+      "$oid": "020000000000000000000003"
+    },
+    "quarto_snapshot": {
+      "numero": "103",
+      "tipo": "standard",
+      "nome_tema": "Lado B",
+      "tema_filme": "As Vantagens de Ser Invisível",
+      "preco_diaria": {
+        "$numberDecimal": "280.00"
+      }
+    },
+    "data_checkin": {
+      "$date": "2025-04-21T00:00:00Z"
+    },
+    "data_checkout": {
+      "$date": "2025-04-23T00:00:00Z"
+    },
+    "num_noites": {
+      "$numberInt": "2"
+    },
+    "num_hospedes": {
+      "$numberInt": "2"
+    },
+    "valor_total": {
+      "$numberDecimal": "560.00"
+    },
+    "status": "confirmada",
+    "canal": "site_proprio",
+    "codigo_reserva": "HCL-2025-003",
+    "observacoes": "Separar cartões em branco no cantinho de leitura.",
+    "data_criacao": {
+      "$date": "2025-03-20T14:22:00Z"
+    },
+    "data_atualizacao": {
+      "$date": "2025-03-20T14:22:00Z"
+    }
+  }
+]

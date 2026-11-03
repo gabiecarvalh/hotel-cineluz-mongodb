@@ -1,0 +1,152 @@
+[
+  {
+    "_id": {
+      "$oid": "040000000000000000000001"
+    },
+    "reserva_id": {
+      "$oid": "030000000000000000000001"
+    },
+    "hospede_id": {
+      "$oid": "010000000000000000000001"
+    },
+    "quarto_id": {
+      "$oid": "020000000000000000000001"
+    },
+    "checkin_real": {
+      "$date": "2025-04-10T14:35:00Z"
+    },
+    "checkout_real": {
+      "$date": "2025-04-12T11:10:00Z"
+    },
+    "status": "encerrada",
+    "funcionario_checkin_id": {
+      "$oid": "060000000000000000000001"
+    },
+    "funcionario_checkout_id": {
+      "$oid": "060000000000000000000002"
+    },
+    "servicos_consumidos": [
+      {
+        "servico_id": {
+          "$oid": "070000000000000000000001"
+        },
+        "nome": "Café da Manhã da Casa",
+        "quantidade": {
+          "$numberInt": "2"
+        },
+        "preco_unitario": {
+          "$numberDecimal": "25.00"
+        },
+        "total": {
+          "$numberDecimal": "50.00"
+        },
+        "data": {
+          "$date": "2025-04-11T08:15:00Z"
+        }
+      },
+      {
+        "servico_id": {
+          "$oid": "070000000000000000000002"
+        },
+        "nome": "Pipoca e Manta",
+        "quantidade": {
+          "$numberInt": "1"
+        },
+        "preco_unitario": {
+          "$numberDecimal": "30.00"
+        },
+        "total": {
+          "$numberDecimal": "30.00"
+        },
+        "data": {
+          "$date": "2025-04-11T20:00:00Z"
+        }
+      }
+    ],
+    "total_servicos": {
+      "$numberDecimal": "80.00"
+    },
+    "total_diarias": {
+      "$numberDecimal": "520.00"
+    },
+    "total_geral": {
+      "$numberDecimal": "600.00"
+    },
+    "observacoes": "Estadia encerrada. A equipe deixou um cartão de agradecimento na saída."
+  },
+  {
+    "_id": {
+      "$oid": "040000000000000000000002"
+    },
+    "reserva_id": {
+      "$oid": "030000000000000000000002"
+    },
+    "hospede_id": {
+      "$oid": "010000000000000000000002"
+    },
+    "quarto_id": {
+      "$oid": "020000000000000000000002"
+    },
+    "checkin_real": {
+      "$date": "2025-04-13T14:35:00Z"
+    },
+    "checkout_real": {
+      "$date": "2025-04-15T11:10:00Z"
+    },
+    "status": "encerrada",
+    "funcionario_checkin_id": {
+      "$oid": "060000000000000000000001"
+    },
+    "funcionario_checkout_id": {
+      "$oid": "060000000000000000000002"
+    },
+    "servicos_consumidos": [
+      {
+        "servico_id": {
+          "$oid": "070000000000000000000002"
+        },
+        "nome": "Pipoca e Manta",
+        "quantidade": {
+          "$numberInt": "1"
+        },
+        "preco_unitario": {
+          "$numberDecimal": "30.00"
+        },
+        "total": {
+          "$numberDecimal": "30.00"
+        },
+        "data": {
+          "$date": "2025-04-14T20:00:00Z"
+        }
+      },
+      {
+        "servico_id": {
+          "$oid": "070000000000000000000003"
+        },
+        "nome": "Chá ao Entardecer",
+        "quantidade": {
+          "$numberInt": "1"
+        },
+        "preco_unitario": {
+          "$numberDecimal": "20.00"
+        },
+        "total": {
+          "$numberDecimal": "20.00"
+        },
+        "data": {
+          "$date": "2025-04-14T17:00:00Z"
+        }
+      }
+    ],
+    "total_servicos": {
+      "$numberDecimal": "50.00"
+    },
+    "total_diarias": {
+      "$numberDecimal": "480.00"
+    },
+    "total_geral": {
+      "$numberDecimal": "530.00"
+    },
+    "observacoes": "Estadia encerrada. A equipe deixou um cartão de agradecimento na saída."
+  }
+]

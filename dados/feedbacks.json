@@ -1,0 +1,66 @@
+[
+  {
+    "_id": {
+      "$oid": "080000000000000000000001"
+    },
+    "hospede_id": {
+      "$oid": "010000000000000000000001"
+    },
+    "hospedagem_id": {
+      "$oid": "040000000000000000000001"
+    },
+    "quarto_id": {
+      "$oid": "020000000000000000000001"
+    },
+    "data_avaliacao": {
+      "$date": "2025-04-13T09:00:00Z"
+    },
+    "nota_geral": 5.0,
+    "notas_detalhadas": {
+      "limpeza": 5,
+      "atendimento": 5,
+      "conforto": 5,
+      "custo_beneficio": 5,
+      "localizacao": 5
+    },
+    "comentario": "A poltrona florida, a luz do espelho e o bilhete na mesa me fizeram sentir esperada. Foi bom chegar sem pressa.",
+    "resposta_hotel": {
+      "texto": "Nina, que bom saber que você se sentiu acolhida. A poltrona e o café ficam esperando sua próxima visita. Com carinho, Rosa.",
+      "data": {
+        "$date": "2025-04-14T10:30:00Z"
+      },
+      "funcionario_id": {
+        "$oid": "060000000000000000000001"
+      }
+    },
+    "visivel": true
+  },
+  {
+    "_id": {
+      "$oid": "080000000000000000000002"
+    },
+    "hospede_id": {
+      "$oid": "010000000000000000000002"
+    },
+    "hospedagem_id": {
+      "$oid": "040000000000000000000002"
+    },
+    "quarto_id": {
+      "$oid": "020000000000000000000002"
+    },
+    "data_avaliacao": {
+      "$date": "2025-04-16T09:00:00Z"
+    },
+    "nota_geral": 4.8,
+    "notas_detalhadas": {
+      "limpeza": 5,
+      "atendimento": 5,
+      "conforto": 5,
+      "custo_beneficio": 4,
+      "localizacao": 5
+    },
+    "comentario": "Gostei das luzinhas do Última Volta. A referência ao filme é discreta e o quarto foi um descanso depois de um dia cheio.",
+    "resposta_hotel": null,
+    "visivel": true
+  }
+]

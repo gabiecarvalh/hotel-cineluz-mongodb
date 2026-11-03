@@ -1,0 +1,92 @@
+[
+  {
+    "_id": {
+      "$oid": "010000000000000000000001"
+    },
+    "nome": "Nina Duarte",
+    "cpf": "000.000.000-01",
+    "email": "hospede1@example.com",
+    "telefone": "+55 00 90000-0001",
+    "data_nascimento": {
+      "$date": "1991-03-22T00:00:00Z"
+    },
+    "nacionalidade": "Brasileira",
+    "endereco": {
+      "logradouro": "Rua das Cartas (fictícia), 10",
+      "cidade": "Cidade Cenográfica",
+      "estado": "SP",
+      "cep": "00000-000",
+      "pais": "Brasil"
+    },
+    "preferencias": {
+      "tipo_quarto": "standard",
+      "andar_alto": false,
+      "fumante": false,
+      "cama": "casal"
+    },
+    "data_cadastro": {
+      "$date": "2025-03-01T10:30:00Z"
+    },
+    "ativo": true
+  },
+  {
+    "_id": {
+      "$oid": "010000000000000000000002"
+    },
+    "nome": "Caio Reis",
+    "cpf": "000.000.000-02",
+    "email": "hospede2@example.com",
+    "telefone": "+55 00 90000-0002",
+    "data_nascimento": {
+      "$date": "1992-03-22T00:00:00Z"
+    },
+    "nacionalidade": "Brasileiro",
+    "endereco": {
+      "logradouro": "Rua das Cartas (fictícia), 20",
+      "cidade": "Cidade Cenográfica",
+      "estado": "SP",
+      "cep": "00000-000",
+      "pais": "Brasil"
+    },
+    "preferencias": {
+      "tipo_quarto": "standard",
+      "andar_alto": false,
+      "fumante": false,
+      "cama": "casal"
+    },
+    "data_cadastro": {
+      "$date": "2025-03-02T10:30:00Z"
+    },
+    "ativo": true
+  },
+  {
+    "_id": {
+      "$oid": "010000000000000000000003"
+    },
+    "nome": "Lia Martins",
+    "cpf": "000.000.000-03",
+    "email": "hospede3@example.com",
+    "telefone": "+55 00 90000-0003",
+    "data_nascimento": {
+      "$date": "1993-03-22T00:00:00Z"
+    },
+    "nacionalidade": "Brasileira",
+    "endereco": {
+      "logradouro": "Rua das Cartas (fictícia), 30",
+      "cidade": "Cidade Cenográfica",
+      "estado": "SP",
+      "cep": "00000-000",
+      "pais": "Brasil"
+    },
+    "preferencias": {
+      "tipo_quarto": "standard",
+      "andar_alto": false,
+      "fumante": false,
+      "cama": "casal"
+    },
+    "data_cadastro": {
+      "$date": "2025-03-03T10:30:00Z"
+    },
+    "ativo": true
+  }
+]

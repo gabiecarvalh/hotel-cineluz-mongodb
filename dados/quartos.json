@@ -1,0 +1,242 @@
+[
+  {
+    "_id": {
+      "$oid": "020000000000000000000001"
+    },
+    "numero": "101",
+    "andar": {
+      "$numberInt": "1"
+    },
+    "tipo": "standard",
+    "categoria": "economico",
+    "nome_tema": "Boas-Vindas",
+    "tema_filme": "Para Wong Foo, Obrigada por Tudo! Julie Newmar",
+    "capacidade_max": {
+      "$numberInt": "2"
+    },
+    "preco_diaria": {
+      "$numberDecimal": "260.00"
+    },
+    "descricao": "Rosa suave, uma poltrona florida e um espelho de camarim com luz morna. Na mesa, um bilhete da casa: pode chegar como você é.",
+    "comodidades": [
+      "wifi",
+      "ar-condicionado",
+      "tv",
+      "frigobar",
+      "manta de leitura"
+    ],
+    "caracteristicas": {
+      "vista": "jardim",
+      "banheira": false,
+      "varanda": false,
+      "area_m2": {
+        "$numberInt": "24"
+      }
+    },
+    "status": "disponivel",
+    "fotos": [],
+    "ultima_limpeza": {
+      "$date": "2025-04-20T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "020000000000000000000002"
+    },
+    "numero": "102",
+    "andar": {
+      "$numberInt": "1"
+    },
+    "tipo": "standard",
+    "categoria": "economico",
+    "nome_tema": "Última Volta",
+    "tema_filme": "Premonição 3",
+    "capacidade_max": {
+      "$numberInt": "2"
+    },
+    "preco_diaria": {
+      "$numberDecimal": "240.00"
+    },
+    "descricao": "Pequenas luzes âmbar, tons de vinho e uma montanha-russa desenhada à mão. Um cantinho tranquilo para quem gosta de um bom frio na barriga no cinema.",
+    "comodidades": [
+      "wifi",
+      "ar-condicionado",
+      "tv",
+      "frigobar",
+      "manta de leitura"
+    ],
+    "caracteristicas": {
+      "vista": "jardim",
+      "banheira": false,
+      "varanda": false,
+      "area_m2": {
+        "$numberInt": "24"
+      }
+    },
+    "status": "disponivel",
+    "fotos": [],
+    "ultima_limpeza": {
+      "$date": "2025-04-20T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "020000000000000000000003"
+    },
+    "numero": "103",
+    "andar": {
+      "$numberInt": "1"
+    },
+    "tipo": "standard",
+    "categoria": "conforto",
+    "nome_tema": "Lado B",
+    "tema_filme": "As Vantagens de Ser Invisível",
+    "capacidade_max": {
+      "$numberInt": "2"
+    },
+    "preco_diaria": {
+      "$numberDecimal": "280.00"
+    },
+    "descricao": "Verde discreto, livros na cabeceira e cartões em branco para escrever a alguém querido. A luminária deixa aceso só o cantinho da leitura.",
+    "comodidades": [
+      "wifi",
+      "ar-condicionado",
+      "tv",
+      "frigobar",
+      "manta de leitura"
+    ],
+    "caracteristicas": {
+      "vista": "jardim",
+      "banheira": false,
+      "varanda": true,
+      "area_m2": {
+        "$numberInt": "26"
+      }
+    },
+    "status": "disponivel",
+    "fotos": [],
+    "ultima_limpeza": {
+      "$date": "2025-04-20T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "020000000000000000000004"
+    },
+    "numero": "201",
+    "andar": {
+      "$numberInt": "2"
+    },
+    "tipo": "suite",
+    "categoria": "conforto",
+    "nome_tema": "Veludo à Meia-Noite",
+    "tema_filme": "Elvira: A Rainha das Trevas",
+    "capacidade_max": {
+      "$numberInt": "2"
+    },
+    "preco_diaria": {
+      "$numberDecimal": "320.00"
+    },
+    "descricao": "Veludo violeta, pequenos detalhes pretos e estrelas prateadas sobre a cama. Um quarto de humor, personalidade e escurinho aconchegante.",
+    "comodidades": [
+      "wifi",
+      "ar-condicionado",
+      "tv",
+      "frigobar",
+      "manta de leitura"
+    ],
+    "caracteristicas": {
+      "vista": "patio",
+      "banheira": true,
+      "varanda": false,
+      "area_m2": {
+        "$numberInt": "32"
+      }
+    },
+    "status": "disponivel",
+    "fotos": [],
+    "ultima_limpeza": {
+      "$date": "2025-04-20T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "020000000000000000000005"
+    },
+    "numero": "202",
+    "andar": {
+      "$numberInt": "2"
+    },
+    "tipo": "deluxe",
+    "categoria": "conforto",
+    "nome_tema": "Luz do Deserto",
+    "tema_filme": "Os Dez Mandamentos (1956)",
+    "capacidade_max": {
+      "$numberInt": "2"
+    },
+    "preco_diaria": {
+      "$numberDecimal": "300.00"
+    },
+    "descricao": "Linho em tom de areia, detalhes de cobre e iluminação dourada ao entardecer. A referência ao clássico aparece na paisagem e nas cores, com delicadeza.",
+    "comodidades": [
+      "wifi",
+      "ar-condicionado",
+      "tv",
+      "frigobar",
+      "manta de leitura"
+    ],
+    "caracteristicas": {
+      "vista": "jardim",
+      "banheira": false,
+      "varanda": true,
+      "area_m2": {
+        "$numberInt": "30"
+      }
+    },
+    "status": "disponivel",
+    "fotos": [],
+    "ultima_limpeza": {
+      "$date": "2025-04-20T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "020000000000000000000006"
+    },
+    "numero": "203",
+    "andar": {
+      "$numberInt": "2"
+    },
+    "tipo": "suite",
+    "categoria": "conforto",
+    "nome_tema": "Janela de Chuva",
+    "tema_filme": "Lua Nova",
+    "capacidade_max": {
+      "$numberInt": "2"
+    },
+    "preco_diaria": {
+      "$numberDecimal": "290.00"
+    },
+    "descricao": "Azul acinzentado, madeira escura e uma pequena pintura de floresta. Uma manta macia fica na poltrona junto à janela, para acompanhar a chuva sem pressa.",
+    "comodidades": [
+      "wifi",
+      "ar-condicionado",
+      "tv",
+      "frigobar",
+      "manta de leitura"
+    ],
+    "caracteristicas": {
+      "vista": "jardim",
+      "banheira": false,
+      "varanda": true,
+      "area_m2": {
+        "$numberInt": "30"
+      }
+    },
+    "status": "disponivel",
+    "fotos": [],
+    "ultima_limpeza": {
+      "$date": "2025-04-20T08:00:00Z"
+    }
+  }
+]
