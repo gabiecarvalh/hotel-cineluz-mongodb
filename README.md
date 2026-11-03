@@ -82,8 +82,6 @@ Na base original desta versão, as consultas retornam seis quartos; três dispon
 | `dados/` | Oito arquivos JSON, um por coleção |
 | `banco.js` | Criação, carga e conferência do banco |
 | `consultas.js` | Seis exemplos comentados, somente de leitura |
-| [MODELO.md](MODELO.md) | Campos, tipos e relacionamentos |
-| [GITHUB.md](GITHUB.md) | Passo a passo para publicar o projeto |
 
 ## Conferência da entrega
 
